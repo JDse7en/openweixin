@@ -36,6 +36,8 @@
 	<properties>
 		<!-- source encoding -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>13</maven.compiler.source>
+ 		<maven.compiler.target>13</maven.compiler.target>
 		<!-- project version -->
 		<project.version>1.0</project.version>
 		<!-- maven time format -->
@@ -51,6 +53,7 @@
 		<log4j.version>2.5</log4j.version>
 		<spring.version>4.1.7.RELEASE</spring.version>
 		<woodstox.version>4.4.1</woodstox.version>
+
 	</properties>
 
 	<dependencies>
